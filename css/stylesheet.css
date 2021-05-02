@@ -1,2 +1,61 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: hsl(229, 6%, 66%); /*Grayish Blue*/
+  font-family: "Poppins";
+  color: hsl(234, 12%, 34%); /*Very Dark Blue*/
+  font-size: 15px;
+  text-align: left;
+}
+
+.container {
+  background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
+  display: flex;
+  justify-content: space-around;
+  align-items:center;
+  flex-direction: column;
+
+
+}
+
+.top {
+  width: 400px;
+  height: 300px;
+  background-color: hsl(229, 6%, 66%); /*Grayish Blue*/
+}
+
+.supervisor {
+  width: 400px;
+  height: 300px;
+}
+
+.teambuilder {
+  width: 400px;
+  height: 300px;
+
+}
+
+.karma {
+  width: 400px;
+  height: 300px;
+
+}
+
+.calculator {
+  width: 400px;
+  height: 300px;
+
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
