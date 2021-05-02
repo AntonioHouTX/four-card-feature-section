@@ -9,46 +9,61 @@ body {
   font-family: "Poppins";
   color: hsl(234, 12%, 34%); /*Very Dark Blue*/
   font-size: 15px;
-  text-align: left;
+  
+}
+
+img {
+  text-align: right;
 }
 
 .container {
-  background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
   display: flex;
   justify-content: space-around;
   align-items:center;
-  flex-direction: column;
+  flex-flow: column nowrap;
 
 
 }
 
 .top {
+  text-align: center;
+  margin: auto;
+  
+}
+
+
+
+.cards {
+  background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
   width: 400px;
   height: 300px;
-  background-color: hsl(229, 6%, 66%); /*Grayish Blue*/
+  text-align: left;
+  border-radius: 5px;
 }
 
 .supervisor {
-  width: 400px;
-  height: 300px;
+  
+  border-top: 5px solid hsl(180, 62%, 55%);
+
+  
+  order: 1;
 }
 
 .teambuilder {
-  width: 400px;
-  height: 300px;
-
+  
+  border-top: 5px solid hsl(0, 78%, 62%);
+  
+  order: 2;
 }
 
 .karma {
-  width: 400px;
-  height: 300px;
-
+  border-top: 5px solid hsl(34, 97%, 64%);
+  order: 3;
 }
 
 .calculator {
-  width: 400px;
-  height: 300px;
-
+  border-top: 5px solid hsl(212, 86%, 64%);
+  order: 4;
 }
 
 .attribution {
