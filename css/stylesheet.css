@@ -11,108 +11,93 @@ body {
   font-size: 15px;
 }
 
-p {
-  font-weight: 200;
-}
+@media only screen and (max-width: 1440px) {
 
-.top {
-  text-align: center;
-  margin: 0rem 25rem 0rem 25rem;
-}
+  p {
+    font-weight: 200;
+  }
 
-.top::first-line {
-  font-weight: 200;
-}
+  h2 {
+    font-weight: 600;
+  }
 
-.top h1:nth-child(2) {
-  font-weight: 600;
-}
+  .top {
+    text-align: center;
+    margin: 0rem 25rem 0rem 25rem;
+  }
 
-.cards {
-  /* background-color: hsl(0, 0%, 98%); Very Light Gray */
-  margin: 4rem 0rem 4rem 4rem;
-  border: 1px black solid;
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
-  grid-gap: 3rem;
-  align-content: center;
-  align-items: center;
-  justify-content: center;
-  /* margin-left: 4rem; */
-  /* display: flex; */
-  /*align-items: right;
-  justify-content: right;
-  text-align: right; */
-  /* width: 30rem;
-  height: 20rem;
-  border-radius: 10px; */
-}
+  .top::first-line {
+    font-weight: 200;
+  }
 
-.text {
-  display: flex;
-  align-items: flex-start;
-  justify-content: left;
-  flex-direction: column;
-}
+  .top h1:nth-child(2) {
+    font-weight: 600;
+  }
 
-.pic {
-  display: flex;
-  align-items: flex-end;
-  justify-content: flex-end;
-  /* border: 1px solid black; */
-  padding-top: 65px;
-  /* padding-bottom: 5px */
-}
+  .cards {
+    margin: 4rem 1rem 4rem 1rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 3rem;
+    align-items: center;
+    justify-content: center;
+  }
 
-.supervisor, 
-.teambuilder, 
-.karma, 
-.calculator {
-  background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
-  width: 25rem;
-  height: 15rem;
-  border-radius: 10px;
-}
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .pic {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+    padding-top: 35px;
+  }
+
+  .supervisor, 
+  .teambuilder, 
+  .karma, 
+  .calculator {
+    
+    background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
+    width: 22rem;
+    height: 15rem;
+    border-radius: 10px;
+    padding: 25px;
+  }
 
 
-.supervisor {
+  .supervisor {
 
-  /* margin-top: 10rem; */
-  border-top: 5px solid hsl(180, 62%, 55%);
-  padding: 20px;
-  grid-column: 1/1;
-  grid-row: 1/3;
+    border-top: 5px solid hsl(180, 62%, 55%);
+    grid-column: 1/1;
+    grid-row: 1/3;
 
-}
+  }
 
-.teambuilder {
- 
-  /* margin-top: 20rem;
-  margin-bottom: 20px; */
-  padding: 20px;
-  border-top: 5px solid hsl(0, 78%, 62%);
-  grid-column: 2/2;
-  grid-row: 1/2;
+  .teambuilder {
 
-}
+    border-top: 5px solid hsl(0, 78%, 62%);
+    grid-column: 2/2;
+    grid-row: 1/2;
+  }
 
-.karma {
+  .karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    grid-column: 2/2;
+    grid-row: 2/3;
+  }
 
-  border-top: 5px solid hsl(34, 97%, 64%);
-  padding: 20px;
-  grid-column: 2/2;
-  grid-row: 2/3;
-
-}
-
-.calculator {
-
-  /* margin-top: 10rem; */
-  border-top: 5px solid hsl(212, 86%, 64%);
-  padding: 20px;
-  grid-column: 3/3;
-  grid-row: 1/3;
+  .calculator {
+    /* margin-top: 10rem; */
+    border-top: 5px solid hsl(212, 86%, 64%);
+    grid-column: 3/3;
+    grid-row: 1/3;
+  }
 
 }
 
