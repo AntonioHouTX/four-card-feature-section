@@ -81,7 +81,7 @@ To see how you can add code snippets, see below:
 ```
 ### Continued development
 
-Some concepts that I'm still not comfortable with include absolute vs. relative filepath references in the href attribute.  Additionally, I need to work on refining my grasp of CSS selectors.
+Some concepts that I'm still not comfortable with include absolute vs. relative filepath references in the href attribute.  Also, I need to better fine-tune the media queries pixel resolution breakpoints in order to make my web design more responsive based on device.  Finally, I need to work on refining my grasp of CSS selectors.
 
 ### Useful resources
 
