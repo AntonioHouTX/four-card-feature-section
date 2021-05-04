@@ -35,7 +35,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [Add live site URL here](https://antoniohoutx.github.io/four-card-feature-section/index.html)
+- Live Site URL: [Four Card Feature Section Project](https://antoniohoutx.github.io/four-card-feature-section/index.html)
 
 ## My process
 
