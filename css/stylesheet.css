@@ -149,19 +149,19 @@ body {
   .supervisor {
     border-top: 5px solid hsl(180, 62%, 55%);
     grid-column: 1/1;
-    grid-row: 1/4;
+    grid-row: 1/1;
   }
 
   .teambuilder {
     border-top: 5px solid hsl(0, 78%, 62%);
     grid-column: 1/1;
-    grid-row: 2/4;
+    grid-row: 2/2;
   }
 
   .karma {
     border-top: 5px solid hsl(34, 97%, 64%);
     grid-column: 1/1;
-    grid-row: 3/4;
+    grid-row: 3/3;
   }
 
   .calculator {
