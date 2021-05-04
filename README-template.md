@@ -30,8 +30,8 @@ Users should be able to:
 ![Completed Project](images/completed_project.jpg)
 
 #### Mobile Version (top and bottom)
-![Completed Project](images/mobile_screenshot_top.jpg)
-![Completed Project](images/mobile_screenshot_bottom.jpg)
+![Completed Project](/images/mobile_screenshot_top.jpg)
+![Completed Project](/images/mobile_screenshot_bottom.jpg)
 
 ### Links
 
