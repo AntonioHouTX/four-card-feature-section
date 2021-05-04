@@ -16,7 +16,6 @@ This is a solution to the [Four card feature section challenge on Frontend Mento
 - [Author](#author)
 - [Acknowledgments](#acknowledgments)
 
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -27,21 +26,16 @@ Users should be able to:
 - View the optimal layout for the site depending on their device's screen size
 
 ### Screenshot
+#### Desktop Version
+![Completed Project](images/completed_project.jpg)
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution. The easiest way to do this is to use Firefox to view your project, right-click the page and select "Take a Screenshot". You can choose either a full-height screenshot or a cropped one based on how long the page is. If it's very long, it might be best to crop it.
-
-Alternatively, you can use a tool like [FireShot](https://getfireshot.com/) to take the screenshot. FireShot has a free option, so you don't need to purchase it. 
-
-Then crop/optimize/edit your image however you like, add it to your project, and update the file path in the image above.
-
-**Note: Delete this note and the paragraphs above when you add your screenshot. If you prefer not to add a screenshot, feel free to remove this entire section.**
+#### Mobile Version (top and bottom)
+![Completed Project](images/mobile_screenshot_top.jpg)
+![Completed Project](images/mobile_screenshot_bottom.jpg)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [Add live site URL here](https://antoniohoutx.github.io/four-card-feature-section/index.html)
 
 ## My process
 
@@ -52,59 +46,53 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 - Flexbox
 - CSS Grid
 - Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
-
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
+While working on this project, one of the primary things I learned was combining CSS Grid with CSS Flexbox.  This allowed me to style the cards as a grid, and the content within each card as a flexbox, as shown in the two code snippets below:
 
 To see how you can add code snippets, see below:
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+
 ```css
-.proud-of-this-css {
-  color: papayawhip;
-}
+.cards {
+    margin: auto auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    gap: 2rem;
+    align-items: center;
+    justify-content: center;
+  }
 ```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
+
+```css
+.text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .pic {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
 ```
-
-If you want more help with writing markdown, we'd recommend checking out [The Markdown Guide](https://www.markdownguide.org/) to learn more.
-
-**Note: Delete this note and the content within this section and replace with your own learnings.**
-
 ### Continued development
 
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
-**Note: Delete this note and the content within this section and replace with your own plans for continued development.**
+Some concepts that I'm still not comfortable with include absolute vs. relative filepath references in the href attribute.  Additionally, I need to work on refining my grasp of CSS selectors.
 
 ### Useful resources
 
 - [Learn Flexbox in 20 Minutes](https://www.youtube.com/watch?v=FTlczfR82mQ) - This helped me grasp the fundamental concepts of CSS Flexbox.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
-
-**Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
+- [CSS border-top Property](https://www.w3schools.com/cssref/pr_border-top.asp) - This helped me to better understand the border-top property so that I could a colored border in each of the cards.
 
 ## Author
 
-- Website - [Add your name here](https://www.your-site.com)
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
-- Twitter - [@yourusername](https://www.twitter.com/yourusername)
-
-**Note: Delete this note and add/remove/edit lines above based on what links you'd like to share.**
+- LinkedIn - [Clint Maxwell](https://www.linkedin.com/in/maxwellclint/)
+- Twitter - [@clintmaxwell](https://www.twitter.com/clintmaxwell)
 
 ## Acknowledgments
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
-
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+I'd like to thank the wonderful people in the Slack community for their assistance on this challenge.  Once again, I'd also like to especially thank [Drull](https://github.com/drull1000) for his patience and diligence in helping a out an HTML/CSS newbie.
