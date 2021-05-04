@@ -12,7 +12,6 @@ body {
 }
 
 @media only screen and (max-width: 1440px) {
-
   p {
     font-weight: 200;
   }
@@ -55,34 +54,25 @@ body {
     display: flex;
     align-items: flex-end;
     justify-content: flex-end;
-    /* padding-top: 35px; */
   }
 
-  .supervisor, 
-  .teambuilder, 
-  .karma, 
+  .supervisor,
+  .teambuilder,
+  .karma,
   .calculator {
-    
     background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
-    /* width: 22rem;
-    height: 15rem; */
     margin: 1rem;
     border-radius: 10px;
     padding: 25px;
   }
 
-
   .supervisor {
-
     border-top: 5px solid hsl(180, 62%, 55%);
     grid-column: 1/1;
     grid-row: 2/4;
-    /* margin: 1rem 0rem 1rem 1rem; */
-
   }
 
   .teambuilder {
-
     border-top: 5px solid hsl(0, 78%, 62%);
     grid-column: 2/2;
     grid-row: 2/3;
@@ -95,12 +85,90 @@ body {
   }
 
   .calculator {
-    /* margin-top: 10rem; */
     border-top: 5px solid hsl(212, 86%, 64%);
     grid-column: 3/3;
     grid-row: 2/4;
   }
+}
 
+@media only screen and (min-width: 375px) and (max-width: 450px) {
+  p {
+    font-weight: 200;
+  }
+
+  h2 {
+    font-weight: 600;
+  }
+
+  .top {
+    text-align: center;
+    margin: 0rem 2rem 0rem 2rem;
+  }
+
+  .top::first-line {
+    font-weight: 200;
+  }
+
+  .top h1:nth-child(2) {
+    font-weight: 600;
+  }
+
+  .cards {
+    margin: auto auto auto auto;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    gap: 0rem;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text {
+    display: flex;
+    align-items: flex-start;
+    justify-content: left;
+    flex-direction: column;
+  }
+
+  .pic {
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+  }
+
+  .supervisor,
+  .teambuilder,
+  .karma,
+  .calculator {
+    background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
+    margin: 1rem;
+    border-radius: 10px;
+    padding: 25px;
+  }
+
+  .supervisor {
+    border-top: 5px solid hsl(180, 62%, 55%);
+    grid-column: 1/1;
+    grid-row: 1/4;
+  }
+
+  .teambuilder {
+    border-top: 5px solid hsl(0, 78%, 62%);
+    grid-column: 1/1;
+    grid-row: 2/4;
+  }
+
+  .karma {
+    border-top: 5px solid hsl(34, 97%, 64%);
+    grid-column: 1/1;
+    grid-row: 3/4;
+  }
+
+  .calculator {
+    border-top: 5px solid hsl(212, 86%, 64%);
+    grid-column: 1/1;
+    grid-row: 4/4;
+  }
 }
 
 .attribution {
