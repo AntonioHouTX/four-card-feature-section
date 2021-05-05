@@ -11,59 +11,50 @@ body {
   font-size: 15px;
 }
 
-@media only screen and (min-width: 960px) {  
-  p {
-    font-weight: 200;
-  }
+p {
+  font-weight: 200;
+}
 
-  h2 {
-    font-weight: 600;
-  }
+h2 {
+  font-weight: 600;
+}
 
-  .top {
-    text-align: center;
-    margin: 0rem 25rem 0rem 25rem;
-  }
+.top {
+  text-align: center;
+  margin: 4rem 30rem 4rem 30rem;
+}
 
-  .top::first-line {
-    font-weight: 200;
-  }
+.top::first-line {
+  font-weight: 200;
+}
 
-  .top h1:nth-child(2) {
-    font-weight: 600;
-  }
+.top h1:nth-child(2) {
+  font-weight: 600;
+}
 
-  .cards {
-    margin: auto auto auto auto;
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: auto auto auto auto;
-    gap: 2rem;
-    align-items: center;
-    justify-content: center;
-  }
+.text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: left;
+  flex-direction: column;
+}
 
-  .text {
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    flex-direction: column;
-  }
-
-  .pic {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
+.pic {
+  display: flex;
+  align-items: flex-end;
+  margin-top: 100px;
+  justify-content: flex-end;
+}
 
   .supervisor,
   .teambuilder,
   .karma,
   .calculator {
     background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
-    margin: 1rem;
-    border-radius: 10px;
-    padding: 25px;
+    margin: 1.5rem;
+    border-radius: 5px;
+    padding: 45px 45px 45px 45px;
+    box-shadow: 0px 10px 20px hsl(229, 6%, 66%); /*Grayish Blue*/
   }
 
   .supervisor {
@@ -89,28 +80,26 @@ body {
     grid-column: 3/3;
     grid-row: 2/4;
   }
+
+@media only screen and (min-width: 960px) {  
+  .top {
+    text-align: center;
+    margin: 4rem 30rem 4rem 30rem;
+  }
+
+  .cards {
+    margin: 5fr 5fr auto 5fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto auto auto auto;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 @media only screen and (max-width: 768px) {
-  p {
-    font-weight: 200;
-  }
-
-  h2 {
-    font-weight: 600;
-  }
-
   .top {
-    text-align: center;
     margin: 0rem 2rem 0rem 2rem;
-  }
-
-  .top::first-line {
-    font-weight: 200;
-  }
-
-  .top h1:nth-child(2) {
-    font-weight: 600;
   }
 
   .cards {
@@ -118,32 +107,8 @@ body {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr;
-    gap: 0rem;
     align-items: center;
     justify-content: center;
-  }
-
-  .text {
-    display: flex;
-    align-items: flex-start;
-    justify-content: left;
-    flex-direction: column;
-  }
-
-  .pic {
-    display: flex;
-    align-items: flex-end;
-    justify-content: flex-end;
-  }
-
-  .supervisor,
-  .teambuilder,
-  .karma,
-  .calculator {
-    background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
-    margin: 1rem;
-    border-radius: 10px;
-    padding: 25px;
   }
 
   .supervisor {
