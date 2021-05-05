@@ -21,7 +21,7 @@ h2 {
 
 .top {
   text-align: center;
-  margin: 4rem 30rem 4rem 30rem;
+  margin: 4rem 30rem 3rem 30rem;
 }
 
 .top::first-line {
@@ -42,7 +42,7 @@ h2 {
 .pic {
   display: flex;
   align-items: flex-end;
-  margin-top: 100px;
+  margin-top: 70px;
   justify-content: flex-end;
 }
 
@@ -53,7 +53,7 @@ h2 {
     background-color: hsl(0, 0%, 98%); /*Very Light Gray*/
     margin: 1.5rem;
     border-radius: 5px;
-    padding: 45px 45px 45px 45px;
+    padding: 40px;
     box-shadow: 0px 10px 20px hsl(229, 6%, 66%); /*Grayish Blue*/
   }
 
@@ -82,11 +82,6 @@ h2 {
   }
 
 @media only screen and (min-width: 960px) {  
-  .top {
-    text-align: center;
-    margin: 4rem 30rem 4rem 30rem;
-  }
-
   .cards {
     margin: 5fr 5fr auto 5fr;
     display: grid;
